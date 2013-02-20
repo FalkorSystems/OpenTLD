@@ -240,6 +240,20 @@ void Main::doWork()
 
                     tld->selectObject(grey, &r);
                 }
+
+		if(key == 't')
+                {
+                    CvRect box;
+
+                    if(getBBFromUser(img, box, gui) == PROGRAM_EXIT)
+                    {
+                        break;
+                    }
+
+                    Rect r = Rect(box);
+
+                    tld->reselectObject(grey, &r);
+                }
             }
 
             if(saveDir != NULL)
