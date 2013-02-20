@@ -28,6 +28,7 @@ A documentation of the internals as well as other possibly helpful information i
 * `e` export model to file specified in configuration parameter "modelExportFile"
 * `i` import model from file specified in configuration parameter "modelPath"
 * `r` clear model, let user reinit tracking
+* `t` manually add reappearance of object to the model
 
 ## Command line options
 ### Synopsis
